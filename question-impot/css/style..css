@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headerBackground {
+  background: url(../img/bg-landing.jpg);
+  background-size: cover;
+}
+
+.headerLogo,
+.footerLogo {
+  border: 1px solid black;
+  display: inline;
+}
+.headerLogo p,
+.footerLogo p {
+  display: inline-block;
+}
+header nav,
+footer nav {
+  float: right;
+}
+header,
+section,
+footer {
+  width: 60%;
+  margin: auto;
+}
+.infos {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+article {
+  /* width: 33.33%; */
+  text-align: center;
+  border: 1px solid black;
+}
